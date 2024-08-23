@@ -1,0 +1,26 @@
+<p>grocery works!</p>
+
+
+<hr>
+<div class="full-part">
+    <div class="half-part">
+        <h2> Grocery List </h2>
+
+        <input type="text" placeholder="search...." />
+        <ul>
+            @for( item of (grocery$ | async ) ; track item; ) {
+            <li><button (click)="addInBucket(item)">+</button> {{ item.name }} <button (click)="removeFromBucket(item)">-</button></li>
+            }
+        </ul>
+    </div>
+    <div class="half-part">
+        <h2> Bucket List </h2>
+        <ul>
+            @for( item of (bucket$ | async ) ; track item; ) {
+            <li style="margin-top: 30px;"> {{ item.name }} <a> {{ item.quantity }} </a></li>
+            
+            }
+        </ul>
+    </div>
+
+</div>

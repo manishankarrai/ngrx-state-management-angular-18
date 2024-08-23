@@ -1,0 +1,11 @@
+.full-part{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.half-part {
+    position: relative;
+    display: block;
+    border: 1px solid black;
+    width: 50%;
+}

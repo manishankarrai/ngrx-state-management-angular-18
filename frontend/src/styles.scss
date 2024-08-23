@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+a {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    color: white ;
+    background-color: rgb(221, 64, 64) ;
+}
+a:hover {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    color: white ;
+    background-color: rgb(190, 41, 41) ;
+}
+button {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: 3px;
+    color: white ;
+    background-color:  rgb(231, 46, 170) ;
+}
+button:hover {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: 3px;
+    color: white ;
+    background-color: rgb(209, 16, 145) ;
+}
+
+h1 , h2  , h3 {
+    text-align: center;
+    text-decoration-line: underline ;
+}
